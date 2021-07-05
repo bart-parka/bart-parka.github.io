@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Bart Parka"
-  avatar : "/assets/profile-square.png"
+  avatar : "/assets/profile-square.jpg"
   bio    : "Not sure what this blog will be quite yet."
   links:
     - label: "Website"

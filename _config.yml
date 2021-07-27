@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Title, is all
+title: Notes and Musings
 email: bartparka@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog site without a purpose.
+  This blog is my interactive notebook. Hope you find it useful.
 twitter_username: bart_parka
 github_username: bart-parka
 search: true
@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Bart Parka"
   avatar : "/assets/profile-square.jpg"
-  bio    : "Not sure what this blog will be quite yet."
+  bio    : "DevOps Engineer, Cloud Architect, Technology Enthusiast, Nerd, Aspiring Polymath"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

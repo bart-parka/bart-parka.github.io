@@ -181,7 +181,7 @@ I am using this blog as my interactive notebook. While I hope you find the posts
     </div>
     <br>
 
-    <p>MacOs</p>
+    <p>MacOS</p>
     <div class="container">
       <div class="skills macos"></div>
     </div>

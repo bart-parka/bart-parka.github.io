@@ -16,13 +16,14 @@ tags:
   - Inspec
   - Testing
   - Compose
+  - Compliance-as-Code
 ---
 
 Want an easy way to run Inspec tests against a Docker container in development, without worrying about local Ruby/Chef Inspec installations? Read on.
 
 ## Requirements
 
-- Docker Desktop: `20.10.7` (https://www.docker.com/products/docker-desktop)
+- [Docker Desktop](https://www.docker.com/products/docker-desktopDocker Desktop): `20.10.7`
 
 ## Guide
 
@@ -128,7 +129,7 @@ Running `docker compose up` from the root of the repo will yield:
   <figcaption>Successful run.</figcaption>
 </figure>
 
-Notice the `GET` request reaching Ngin on the `compose-web` container. This is Inspec running the test case.
+Notice the `GET` request reaching Nginx on the `compose-web` container. This is Inspec running the test case.
 
 Exit with `Ctrl + C` then run `docker compose down` to clean-up.
 

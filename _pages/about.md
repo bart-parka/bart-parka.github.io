@@ -4,21 +4,15 @@ title: "About"
 layout: single
 ---
 
+## Bio
+
 I am an experienced technical leader specialised in establishing DevOps platforms and designing and managing complex hybrid cloud environments.
 
 My career so far has mostly spanned working with government clients, helping them build up their engineering capabilities and facilitating organisation-wide cultural changes in support of Agile and DevOps methodologies. I am also passionate about developing future talent and am a recognised mentor within IBM.
 
 I am using this blog as my interactive notebook. While I hope you find the posts here useful, they are often just my thoughts, experiments or random things I found useful. As such, please take anything you read here with a pinch of salt and do your own due diligence before implementing.
 
-## Certifications
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d3da7709-f37e-4e1f-ba94-94e563d2870f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4b0d411f-0692-41df-8f86-66a3ae7bea0a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="234b5bb5-7867-4632-9fd8-6d818f8e610e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="234b5bb5-7867-4632-9fd8-6d818f8e610e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+In my spare time I enjoy hiking, climbing (bouldering) and generally being in nature. I am a bit of a gym rat and am interested in all things fitness. I have recently began training in Brazilian jiu-jitsu. I enjoy reading books on popular science, philosophy, politics and history. In the realms of fiction, I'm a sucker for fantasy novels and my favourite authors include Robert Jordan, Brandon Sanderson and Andrzej Sapkowski. I try to be mindful and meditate regularly. I also like making my home smart.
 
 ## Skills
 
@@ -200,3 +194,13 @@ I am using this blog as my interactive notebook. While I hope you find the posts
 
 ---
 <span style="font-size:0.8em;">*Please note the scale used here is relative and should not be taken as absolute knowledge/skill in a given area.*</span>
+
+## Certifications
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d3da7709-f37e-4e1f-ba94-94e563d2870f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4b0d411f-0692-41df-8f86-66a3ae7bea0a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="234b5bb5-7867-4632-9fd8-6d818f8e610e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="234b5bb5-7867-4632-9fd8-6d818f8e610e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>

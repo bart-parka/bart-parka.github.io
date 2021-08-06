@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Bart Parka"
   avatar : "/assets/profile-square.jpg"
-  bio    : "DevOps Engineer, Cloud Architect, Technology Enthusiast, Nerd, Aspiring Polymath"
+  bio    : "An engineer's blog on DevOps, Cloud, Technology and other nerdy things."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -93,7 +93,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      #read_time: true
       comments: true
       share: true
       related: true

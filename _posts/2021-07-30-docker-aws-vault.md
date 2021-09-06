@@ -95,13 +95,17 @@ Quick checkpoint, so far we should have:
 
 Before we continue, at this stage it is a good idea to create some aliases. As we are aiming to run `aws-vault` and `aws` commands from a container, we will actually run `docker run` commands on the host system. These can get complicated quickly, so it's worth abstracting some of the complexity away through aliasing. Add the following to your bash profile (e.g. `~/.bash_profile` or `~/.zshrc`):
 
-`alias aws-vault-container="docker run --rm -it -v <PATH TO REPO ROOT>/assets/aws/:/root/.aws -v test-vault-volume:/root/.awsvault/keys -e AWS_VAULT_FILE_PASSPHRASE=\$(security find-generic-password -a \${USER} -s test-vault-volume -w) -e AWS_VAULT_BACKEND=file --entrypoint=aws-vault awscli:test"`.
+```
+alias aws-vault-container="docker run --rm -it -v <PATH TO REPO ROOT>/assets/aws/:/root/.aws -v test-vault-volume:/root/.awsvault/keys -e AWS_VAULT_FILE_PASSPHRASE=\$(security find-generic-password -a \${USER} -s test-vault-volume -w) -e AWS_VAULT_BACKEND=file --entrypoint=aws-vault awscli:test"
+```
 
 Run `source ~/.zshrc` and run `aws-vault-container --version` to confirm the alias loaded properly. You should get the `aws-vault` version returned.
 
 Similarly, add the following to your profile:
 
-`alias aws-container="docker run --rm -it -v <PATH TO REPO ROOT>/assets/aws/:/root/.aws -v test-vault-volume:/root/.awsvault/keys -e AWS_VAULT_FILE_PASSPHRASE=\$(security find-generic-password -a \${USER} -s test-vault-volume -w) -e AWS_VAULT_BACKEND=file awscli:test"`,
+```
+alias aws-container="docker run --rm -it -v <PATH TO REPO ROOT>/assets/aws/:/root/.aws -v test-vault-volume:/root/.awsvault/keys -e AWS_VAULT_FILE_PASSPHRASE=\$(security find-generic-password -a \${USER} -s test-vault-volume -w) -e AWS_VAULT_BACKEND=file awscli:test"
+```
 
 run `source ~/.zshrc` again and confirm `aws-container --version` returns the awscli version.
 

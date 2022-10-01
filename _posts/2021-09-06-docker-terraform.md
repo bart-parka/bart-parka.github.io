@@ -3,7 +3,7 @@ title: "Part 2: Containerising your Development Tools"
 date: 2021-09-06T16:55
 tagline: "Picking up where we left of last time. Now adding Terraform to our image while still leveraging aws-vault for credentials."
 header:
-  overlay_image: /assets/docker-terraform.jpg
+  overlay_image: https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/overlays/docker-terraform.jpg
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Bart Parka**](https://www.instagram.com/bart_parka/)"
   actions:

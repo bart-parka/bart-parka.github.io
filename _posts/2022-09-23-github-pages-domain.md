@@ -3,7 +3,7 @@ title: "GitHub Pages and Custom Domains"
 date: 2022-09-22T17:52
 tagline: "How to attach a custom domain to your GitHub Page"
 header:
-  overlay_image: /assets/docker-terraform.jpg
+  overlay_image: https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/overlays/docker-terraform.jpg
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Bart Parka**](https://www.instagram.com/bart_parka/)"
 categories:
@@ -29,12 +29,12 @@ I chose to register my new domain using AWS and Route53, it was really easy:
 * You may have to wait a few minutes to tick Enforce HTTPS.
 
 <figure>
-  <img src="/assets/images/2022-09-23-github-pages-domain/aws-screenshot.png">
+  <img src="https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/2022-09-23-github-pages-domain/aws-screenshot.png">
   <figcaption>Route53 Records - you will have to create the A and CNAME records.</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/images/2022-09-23-github-pages-domain/github-screenshot.png">
+  <img src="https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/2022-09-23-github-pages-domain/github-screenshot.png">
   <figcaption>GitHub Pages config page - change the Custom domain to match your newly acquired domain.</figcaption>
 </figure>
 

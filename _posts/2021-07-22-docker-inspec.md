@@ -3,7 +3,7 @@ title: "Testing Docker in Development"
 date: 2021-07-22T15:52
 tagline: "Test your Docker containers locally using Docker Compose and Inspec."
 header:
-  overlay_image: /assets/docker-inspec.jpg
+  overlay_image: https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/overlays/docker-inspec.jpg
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Stefan Miron**](https://www.instagram.com/stefanmironphotography)"
   actions:
@@ -125,7 +125,7 @@ A few things to note:
 Running `docker compose up` from the root of the repo will yield:
 
 <figure>
-  <img src="/assets/images/2021-07-22-docker-inspec/docker-compose-up.png">
+  <img src="https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/2021-07-22-docker-inspec/docker-compose-up.png">
   <figcaption>Successful run.</figcaption>
 </figure>
 

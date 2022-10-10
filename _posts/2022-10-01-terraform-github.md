@@ -30,6 +30,7 @@ Interesting things to note:
 * The remaining secrets are attached to the repository under Settings -> Secrets -> Actions
 * Further improvement would be to pause for plan review and/or drop the plan in GitHub comments
 
+{% raw  %}
 ```yml
 name: Deploy Repo
 
@@ -70,3 +71,6 @@ jobs:
       id: apply
       run: terraform apply -input=false -no-color -auto-approve -var-file=vars/common.tfvars -var-file=vars/personal/vars.tfvars
 ```
+{% endraw %}
+
+P.S. I had to wrap the yml block above inn raw/endraw tags due to some interesting behaviour of Jekyll and interpolating variables, see [this](https://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags) issue.

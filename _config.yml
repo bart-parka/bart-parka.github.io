@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Bart Parka"
-  avatar : "/assets/profile-square.jpg"
+  avatar : "/assets/profile-small-col.jpg"
   bio    : "An engineer's blog on DevOps, Cloud, Technology and other nerdy things."
   links:
     - label: "Website"

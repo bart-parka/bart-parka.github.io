@@ -12,7 +12,7 @@ My career so far has mostly spanned working with government clients, helping the
 
 I am using this blog as my interactive notebook. While I hope you find the posts here useful, they are often just my thoughts, experiments or random things I found useful. As such, please take anything you read here with a pinch of salt and do your own due diligence before implementing.
 
-In my spare time I enjoy hiking, climbing (bouldering) and generally being in nature. I am a bit of a gym rat and am interested in all things fitness. I also train in Brazilian jiu-jitsu. I enjoy reading books on popular science, philosophy, politics and history. In the realms of fiction, I'm a sucker for fantasy novels and my favourite authors include Robert Jordan, Brandon Sanderson and Andrzej Sapkowski. I try to be mindful and meditate regularly. I also like making my home smart.
+In my spare time I enjoy hiking, rock climbing (bouldering) and generally being in nature. I am a bit of a gym rat and am interested in all things fitness. I also train in Brazilian jiu-jitsu. I enjoy reading books on popular science, philosophy, politics and history. In the realms of fiction, I'm a sucker for fantasy novels and my favourite authors include Robert Jordan, Brandon Sanderson and Andrzej Sapkowski. I try to be mindful and meditate regularly. I also like making my home smart.
 
 ## Skills
 

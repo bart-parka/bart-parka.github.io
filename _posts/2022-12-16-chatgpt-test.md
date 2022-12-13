@@ -1,7 +1,7 @@
 ---
 title: "Playing around with ChatGPT"
 date: 2022-12-12T17:22
-tagline: ""
+tagline: "Hello Skynet? 🤖"
 header:
   overlay_image: https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/overlays/docker-terraform.jpg
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
@@ -15,8 +15,6 @@ tags:
   - ChatGPT
   - OpenAI
 ---
-
-Hello Skynet? 🤖
 
 ## Register
 
@@ -60,6 +58,6 @@ P.S. I used [this article](https://medium.com/@pczarkowski/how-to-make-an-animat
 
 Install the following:
 
-1. https://github.com/mjording/ttyrec
-2. https://github.com/icholy/ttygif
-3. https://github.com/kohler/gifsicle
+1. [ttyrec](https://github.com/mjording/ttyrec)
+2. [ttygif](https://github.com/icholy/ttygif)
+3. [gifsicle](https://github.com/kohler/gifsicle)

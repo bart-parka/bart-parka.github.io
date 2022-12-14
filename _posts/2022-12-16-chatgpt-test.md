@@ -16,7 +16,7 @@ tags:
   - OpenAI
 ---
 
-"Hello Skynet? 🤖"
+Hello Skynet? 🤖
 
 ## Register
 

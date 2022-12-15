@@ -121,7 +121,7 @@ This code defines a Terraform module named "s3". The module creates an S3 bucket
 
 Not quite as good, but still sensical!
 
-I think there are plenty of potential use cases here - to be continued!
+I think there are plenty of potential use cases here in the future (someone already tried converting an [AWS Terraform template into Azure/GCP](https://mr-right.medium.com/using-chatgpt-to-convert-terraform-for-aws-to-azure-and-gcp-8f5562f59afd)), but as most people I think in the near term this sort of tool will be an "enabler" rather than replacement for developers.
 
 ---
 

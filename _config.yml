@@ -64,6 +64,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://bart-parka.github.io"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/bparka"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/bart_parka"
@@ -72,19 +75,22 @@ author:
       url: "https://github.com/bart-parka"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/bart_parka/"
+      url: "https://instagram.com/bart_parka/"
 
 footer:
-  # links:
-  #   - label: "Twitter"
-  #     icon: "fab fa-fw fa-twitter-square"
-  #     url: "https://twitter.com/"
-  #   - label: "GitHub"
-  #     icon: "fab fa-fw fa-github"
-  #     url: "https://github.com/"
-  #   - label: "Instagram"
-  #     icon: "fab fa-fw fa-instagram"
-  #     url: "https://instagram.com/"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/bparka"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/bart_parka"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bart-parka"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/bart_parka/"
 
 defaults:
   # _posts

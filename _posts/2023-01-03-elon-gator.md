@@ -1,9 +1,9 @@
 ---
-title: "The Elon-gator"
-date: 2023-01-04T16:22
+title: "The Elon-Gator"
+date: 2023-01-03T16:22
 tagline: "Feeding Tweets to ChatGPT - what could go wrong!"
 header:
-  overlay_image: https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/overlays/docker-terraform.jpg
+  overlay_image: https://bart-parka-blog-assets.s3.eu-west-2.amazonaws.com/images/overlays/glacier.jpg
   overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Bart Parka**](https://www.instagram.com/bart_parka/)"
   actions:
@@ -17,10 +17,31 @@ tags:
   - Twitter
 ---
 
-So I had this crazy idea to feed tweets to ChatGPT.
+Happy new year all!
 
+Before Christmas I had this crazy idea to feed tweets to ChatGPT. Twitter can be an incredibly toxic place and, given the character limit, many things you read lack context. My idea was to pull recent tweets from some of my favourite accounts and ask ChatGPT to give me more background.
 
-ElonGator
+[Skip to the good part](/blog/elon-gator/#elon-gator) or read on:
+
+As you are about to see, this works relatively well for certain types of tweets but fails completely when the content of the tweet is an external link or image for example (I believe ChatGPT has been trained on data up to 2021 so it won't be very good at explaining current events, and I think at the moment it is prevented from following links to retrieve additional info.)
+
+I was able to put together a very rough example by using the Twitter API, and the ChatGPT Python wrapper discussed in the previous post (the ChatGPT wrappers are the best I could find until OpenAI release a proper API, which no doubt will be paid for). The `elongate.py` (pardon the pun) in the example code linked above generates a markdown file which I can paste in here directly. Notice also the few prompt examples I included in the script, the quality of ChatGPT's outputs depends a lot on the prompt you provide, which has spawned a whole new field of "[prompt-engineering](https://en.wikipedia.org/wiki/Prompt_engineering)".
+
+If you are interested in using it yourself you will have to:
+
+1. Sign up for Twitter API (you can find instructions [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api))
+2. Sign up for ChatGPT (read my previous [post](https://bartparka.com/blog/chatgpt-test/))
+3. Export a TOKEN environment variable with your Twitter bearer token, generated in step 1.
+
+I will be making periodic enhancements to the rough Python script I shared here. I think one area where this technology has huge potential is in enabling "journalism". For example consuming a bunch of short-form text messages (tweets) in order to write a coherent and engaging long-form article.
+
+It's hardly been a few weeks we have had trial access and people have already built products using this technology, despite the flakey work-around APIs:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It’s done!! 🚀🚀🚀🚀<br><br>Introducing Addy - Your AI email assistant 🤖<br><br>Addy is powered by ChatGPT and can write emails for you 10x faster in your preferred style and tone.<br><br>If you want early access, please retweet and comment below and I’ll send you an invite code! <a href="https://t.co/uikj2Irywi">pic.twitter.com/uikj2Irywi</a></p>&mdash; Michael Vandi (@michael_vandi) <a href="https://twitter.com/michael_vandi/status/1607422866416619520?ref_src=twsrc%5Etfw">December 26, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Anyway, below you can see the output of the elon-gator and it's obvious weaknesses at the moment. Enjoy - the rest of this post was auto-generated.
+
+Elon-Gator
 =========
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After he discovered his principle of buoyancy, Archimedes allegedly yelled out &quot;Eureka!&quot; and ran naked through the city of Syracuse. The discovery was that important. The story goes that Archimedes made his great breakthrough when he noticed the water rise as he got into the tub.</p>&mdash; World of Engineering (@engineers_feed) <a href="https://twitter.com/engineers_feed/status/1605223509420302336?ref_src=twsrc%5Etfw">December 20, 2022</a></blockquote>

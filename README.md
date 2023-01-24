@@ -8,3 +8,9 @@ To build locally:
 ```
 bundle exec jekyll serve 
 ```
+
+To build a view future posts:
+
+```
+bundle exec jekyll serve --future
+```
